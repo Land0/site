@@ -75,8 +75,8 @@ function ArrowIcon() {
     </svg>
   )
 }
-
-function ServerTile({ server, index }: { server: Server index: number }) {
+//fixed minor bug?//
+function ServerTile({ server, index }: { server: Server, index: number }) {
   return (
     <a
       className={`server-card status-${server.status}`}
