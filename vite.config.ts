@@ -51,6 +51,14 @@ react(),
 
 type FigmaSiteConfiguration = {
   title?: string
+  {
+  "title": "Null Grid",
+  "description": "A responsive server-status directory.",
+  "language": "en",
+  "robots": { "index": true },
+  "icons": { "icon": "./favicon.svg" },
+  "accessibility": { "addBypassLinks": true }
+}
   description?: string
   language?: string
   robots?: {
